@@ -33,12 +33,4 @@
         <servlet-name>ListVCSs</servlet-name>
         <url-pattern>/listVCSs</url-pattern>
     </servlet-mapping>
-    
-    <filter-name>AuthenticationFilter</filter-name>
-    <filter-class>controller.AuthenticationFilter</filter-class>
-    <filter-mapping>
-        <filter-name>AuthenticationFilter</filter-name>
-        <servlet-name>SignUpVCS</servlet-name>
-        <servlet-name>ListVCS</servlet-name>
-    </filter-mapping>
 </web-app>
